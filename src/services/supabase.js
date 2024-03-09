@@ -1,0 +1,12 @@
+import { createClient } from "@supabase/supabase-js";
+export const supabaseUrl = "https://pokcojiufcyjiynaicyj.supabase.co";
+//pokcojiufcyjiynaicyj
+const supabaseKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBva2Nvaml1ZmN5aml5bmFpY3lqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDk0ODYxODksImV4cCI6MjAyNTA2MjE4OX0.YfeDXmiJ6EgQbHY8SYx3-ukP5PGmF-BNf3um96aINZU";
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBva2Nvaml1ZmN5aml5bmFpY3lqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwOTQ4NjE4OSwiZXhwIjoyMDI1MDYyMTg5fQ.-DufMtEM7qFW3_CdX1OilSMLEsV-4KuGDsMB46sWENU
+const supabase = createClient(supabaseUrl, supabaseKey);
+export default supabase;
+// https://iqsgtgenjbslcjvmzzbv.supabase.co
+// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlxc2d0Z2VuamJzbGNqdm16emJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDgyOTIyNTAsImV4cCI6MjAyMzg2ODI1MH0.jTOLwfCKvJK44gMkYxpskLe8ZirBw2LKxGEl19a0QqU
+//"https://xavooookwwfhfjyszcpz.supabase.co"
+// "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhhdm9vb29rd3dmaGZqeXN6Y3B6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU4NjU0NjgsImV4cCI6MjAyMTQ0MTQ2OH0.YF_Dw51FZyIy86_Y0zBLo9mkV0yKWzMh_j5IYkiZQiI";
